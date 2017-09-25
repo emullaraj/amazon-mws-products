@@ -69,7 +69,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeeType property.
      *
      * @param string feeType
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setFeeType($value)
     {
@@ -93,7 +93,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feeType
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withFeeType($value)
     {
@@ -104,7 +104,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeeAmount property.
      *
-     * @return MoneyType FeeAmount.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType FeeAmount.
      */
     public function getFeeAmount()
     {
@@ -115,7 +115,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeeAmount property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType feeAmount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setFeeAmount($value)
     {
@@ -139,7 +139,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feeAmount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withFeeAmount($value)
     {
@@ -150,7 +150,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeePromotion property.
      *
-     * @return MoneyType FeePromotion.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType FeePromotion.
      */
     public function getFeePromotion()
     {
@@ -161,7 +161,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeePromotion property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType feePromotion
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setFeePromotion($value)
     {
@@ -185,7 +185,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feePromotion
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withFeePromotion($value)
     {
@@ -196,7 +196,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the TaxAmount property.
      *
-     * @return MoneyType TaxAmount.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType TaxAmount.
      */
     public function getTaxAmount()
     {
@@ -207,7 +207,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TaxAmount property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType taxAmount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setTaxAmount($value)
     {
@@ -231,7 +231,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param taxAmount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withTaxAmount($value)
     {
@@ -242,7 +242,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FinalFee property.
      *
-     * @return MoneyType FinalFee.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType FinalFee.
      */
     public function getFinalFee()
     {
@@ -253,7 +253,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FinalFee property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType finalFee
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setFinalFee($value)
     {
@@ -277,7 +277,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param finalFee
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withFinalFee($value)
     {
@@ -288,7 +288,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the IncludedFeeDetailList property.
      *
-     * @return FeeDetailList IncludedFeeDetailList.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetailList IncludedFeeDetailList.
      */
     public function getIncludedFeeDetailList()
     {
@@ -299,7 +299,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IncludedFeeDetailList property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeeDetailList includedFeeDetailList
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance
      */
     public function setIncludedFeeDetailList($value)
     {
@@ -323,7 +323,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param includedFeeDetailList
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail instance.
      */
     public function withIncludedFeeDetailList($value)
     {

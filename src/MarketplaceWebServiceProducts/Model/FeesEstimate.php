@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TimeOfFeesEstimation property.
      *
      * @param string timeOfFeesEstimation
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance
      */
     public function setTimeOfFeesEstimation($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param timeOfFeesEstimation
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance.
      */
     public function withTimeOfFeesEstimation($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the TotalFeesEstimate property.
      *
-     * @return MoneyType TotalFeesEstimate.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType TotalFeesEstimate.
      */
     public function getTotalFeesEstimate()
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TotalFeesEstimate property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType totalFeesEstimate
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance
      */
     public function setTotalFeesEstimate($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param totalFeesEstimate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance.
      */
     public function withTotalFeesEstimate($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeeDetailList property.
      *
-     * @return FeeDetailList FeeDetailList.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetailList FeeDetailList.
      */
     public function getFeeDetailList()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeeDetailList property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeeDetailList feeDetailList
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance
      */
     public function setFeeDetailList($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feeDetailList
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate instance.
      */
     public function withFeeDetailList($value)
     {

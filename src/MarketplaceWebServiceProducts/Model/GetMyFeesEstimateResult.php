@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeesEstimateResultList property.
      *
-     * @return FeesEstimateResultList FeesEstimateResultList.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResultList FeesEstimateResultList.
      */
     public function getFeesEstimateResultList()
     {
@@ -59,7 +59,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeesEstimateResultList property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeesEstimateResultList feesEstimateResultList
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateResult instance
      */
     public function setFeesEstimateResultList($value)
     {
@@ -83,7 +83,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feesEstimateResultList
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateResult instance.
      */
     public function withFeesEstimateResultList($value)
     {

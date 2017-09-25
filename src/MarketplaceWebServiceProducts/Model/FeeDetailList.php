@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeeDetail property.
      *
-     * @return List<FeeDetail> FeeDetail.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetail[] FeeDetail.
      */
     public function getFeeDetail()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeeDetail property.
      *
      * @param array feeDetail
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeeDetailList instance
      */
     public function setFeeDetail($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feeDetail
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeeDetailList instance.
      */
     public function withFeeDetail()
     {

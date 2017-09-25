@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Status property.
      *
      * @param string status
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance
      */
     public function setStatus($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param status
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance.
      */
     public function withStatus($value)
     {
@@ -100,7 +100,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeesEstimateIdentifier property.
      *
-     * @return FeesEstimateIdentifier FeesEstimateIdentifier.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier FeesEstimateIdentifier.
      */
     public function getFeesEstimateIdentifier()
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeesEstimateIdentifier property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier feesEstimateIdentifier
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance
      */
     public function setFeesEstimateIdentifier($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feesEstimateIdentifier
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance.
      */
     public function withFeesEstimateIdentifier($value)
     {
@@ -146,7 +146,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeesEstimate property.
      *
-     * @return FeesEstimate FeesEstimate.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimate FeesEstimate.
      */
     public function getFeesEstimate()
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeesEstimate property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeesEstimate feesEstimate
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance
      */
     public function setFeesEstimate($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feesEstimate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance.
      */
     public function withFeesEstimate($value)
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Error property.
      *
      * @param MarketplaceWebServiceProducts_Model_Error error
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance
      */
     public function setError($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param error
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateResult instance.
      */
     public function withError($value)
     {

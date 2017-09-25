@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance
      */
     public function setSellerId($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance.
      */
     public function withSellerId($value)
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance.
      */
     public function withMWSAuthToken($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the FeesEstimateRequestList property.
      *
-     * @return FeesEstimateRequestList FeesEstimateRequestList.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateRequestList FeesEstimateRequestList.
      */
     public function getFeesEstimateRequestList()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeesEstimateRequestList property.
      *
      * @param MarketplaceWebServiceProducts_Model_FeesEstimateRequestList feesEstimateRequestList
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance
      */
     public function setFeesEstimateRequestList($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feesEstimateRequestList
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyFeesEstimateRequest instance.
      */
     public function withFeesEstimateRequestList($value)
     {
