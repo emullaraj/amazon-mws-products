@@ -59,7 +59,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Max property.
      *
      * @param string max
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ShippingTimeType instance
      */
     public function setMax($value)
     {
@@ -83,7 +83,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param max
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ShippingTimeType instance.
      */
     public function withMax($value)
     {

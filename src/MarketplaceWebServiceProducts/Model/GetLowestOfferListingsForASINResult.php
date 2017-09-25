@@ -77,7 +77,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AllOfferListingsConsidered property.
      *
      * @param bool allOfferListingsConsidered
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance
      */
     public function setAllOfferListingsConsidered($value)
     {
@@ -101,7 +101,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param allOfferListingsConsidered
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance.
      */
     public function withAllOfferListingsConsidered($value)
     {
@@ -112,7 +112,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Product property.
      *
-     * @return Product Product.
+     * @return MarketplaceWebServiceProducts_Model_Product Product.
      */
     public function getProduct()
     {
@@ -123,7 +123,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Product property.
      *
      * @param MarketplaceWebServiceProducts_Model_Product product
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance
      */
     public function setProduct($value)
     {
@@ -147,7 +147,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param product
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance.
      */
     public function withProduct($value)
     {
@@ -169,7 +169,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Error property.
      *
      * @param MarketplaceWebServiceProducts_Model_Error error
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance
      */
     public function setError($value)
     {
@@ -193,7 +193,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param error
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance.
      */
     public function withError($value)
     {
@@ -215,7 +215,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance
      */
     public function setASIN($value)
     {
@@ -239,7 +239,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param asin
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance.
      */
     public function withASIN($value)
     {
@@ -261,7 +261,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the status property.
      *
      * @param string status
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance
      */
     public function setstatus($value)
     {
@@ -285,7 +285,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param status
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestOfferListingsForASINResult instance.
      */
     public function withstatus($value)
     {

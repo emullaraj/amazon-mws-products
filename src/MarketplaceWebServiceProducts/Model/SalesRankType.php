@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ProductCategoryId property.
      *
      * @param string productCategoryId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SalesRankType instance
      */
     public function setProductCategoryId($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param productCategoryId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SalesRankType instance.
      */
     public function withProductCategoryId($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Rank property.
      *
      * @param int rank
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SalesRankType instance
      */
     public function setRank($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param rank
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SalesRankType instance.
      */
     public function withRank($value)
     {

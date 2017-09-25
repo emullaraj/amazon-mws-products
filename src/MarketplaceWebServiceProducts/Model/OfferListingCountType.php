@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Value property.
      *
      * @param int value
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferListingCountType instance
      */
     public function setValue($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param value
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferListingCountType instance.
      */
     public function withValue($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferListingCountType instance
      */
     public function setcondition($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param condition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferListingCountType instance.
      */
     public function withcondition($value)
     {

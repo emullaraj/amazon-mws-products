@@ -69,7 +69,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setItemCondition($value)
     {
@@ -93,7 +93,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withItemCondition($value)
     {
@@ -115,7 +115,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemSubcondition property.
      *
      * @param string itemSubcondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setItemSubcondition($value)
     {
@@ -139,7 +139,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemSubcondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withItemSubcondition($value)
     {
@@ -161,7 +161,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -185,7 +185,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param fulfillmentChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withFulfillmentChannel($value)
     {
@@ -207,7 +207,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShipsDomestically property.
      *
      * @param string shipsDomestically
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setShipsDomestically($value)
     {
@@ -231,7 +231,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipsDomestically
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withShipsDomestically($value)
     {
@@ -242,7 +242,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ShippingTime property.
      *
-     * @return ShippingTimeType ShippingTime.
+     * @return MarketplaceWebServiceProducts_Model_ShippingTimeType ShippingTime.
      */
     public function getShippingTime()
     {
@@ -253,7 +253,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShippingTime property.
      *
      * @param MarketplaceWebServiceProducts_Model_ShippingTimeType shippingTime
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setShippingTime($value)
     {
@@ -277,7 +277,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shippingTime
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withShippingTime($value)
     {
@@ -299,7 +299,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerPositiveFeedbackRating property.
      *
      * @param string sellerPositiveFeedbackRating
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance
      */
     public function setSellerPositiveFeedbackRating($value)
     {
@@ -323,7 +323,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerPositiveFeedbackRating
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType instance.
      */
     public function withSellerPositiveFeedbackRating($value)
     {

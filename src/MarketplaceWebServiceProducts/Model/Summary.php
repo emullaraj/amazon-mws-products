@@ -73,7 +73,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TotalOfferCount property.
      *
      * @param int totalOfferCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setTotalOfferCount($value)
     {
@@ -97,7 +97,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param totalOfferCount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withTotalOfferCount($value)
     {
@@ -108,7 +108,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the NumberOfOffers property.
      *
-     * @return NumberOfOffers NumberOfOffers.
+     * @return MarketplaceWebServiceProducts_Model_NumberOfOffers NumberOfOffers.
      */
     public function getNumberOfOffers()
     {
@@ -119,7 +119,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the NumberOfOffers property.
      *
      * @param MarketplaceWebServiceProducts_Model_NumberOfOffers numberOfOffers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setNumberOfOffers($value)
     {
@@ -143,7 +143,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param numberOfOffers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withNumberOfOffers($value)
     {
@@ -154,7 +154,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the LowestPrices property.
      *
-     * @return LowestPrices LowestPrices.
+     * @return MarketplaceWebServiceProducts_Model_LowestPrices LowestPrices.
      */
     public function getLowestPrices()
     {
@@ -165,7 +165,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LowestPrices property.
      *
      * @param MarketplaceWebServiceProducts_Model_LowestPrices lowestPrices
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setLowestPrices($value)
     {
@@ -189,7 +189,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lowestPrices
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withLowestPrices($value)
     {
@@ -200,7 +200,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the BuyBoxPrices property.
      *
-     * @return BuyBoxPrices BuyBoxPrices.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPrices BuyBoxPrices.
      */
     public function getBuyBoxPrices()
     {
@@ -211,7 +211,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyBoxPrices property.
      *
      * @param MarketplaceWebServiceProducts_Model_BuyBoxPrices buyBoxPrices
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setBuyBoxPrices($value)
     {
@@ -235,7 +235,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyBoxPrices
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withBuyBoxPrices($value)
     {
@@ -246,7 +246,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListPrice property.
      *
-     * @return MoneyType ListPrice.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType ListPrice.
      */
     public function getListPrice()
     {
@@ -257,7 +257,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ListPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType listPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setListPrice($value)
     {
@@ -281,7 +281,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param listPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withListPrice($value)
     {
@@ -292,7 +292,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SuggestedLowerPricePlusShipping property.
      *
-     * @return MoneyType SuggestedLowerPricePlusShipping.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType SuggestedLowerPricePlusShipping.
      */
     public function getSuggestedLowerPricePlusShipping()
     {
@@ -303,7 +303,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SuggestedLowerPricePlusShipping property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType suggestedLowerPricePlusShipping
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setSuggestedLowerPricePlusShipping($value)
     {
@@ -327,7 +327,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param suggestedLowerPricePlusShipping
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withSuggestedLowerPricePlusShipping($value)
     {
@@ -338,7 +338,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the BuyBoxEligibleOffers property.
      *
-     * @return BuyBoxEligibleOffers BuyBoxEligibleOffers.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxEligibleOffers BuyBoxEligibleOffers.
      */
     public function getBuyBoxEligibleOffers()
     {
@@ -349,7 +349,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyBoxEligibleOffers property.
      *
      * @param MarketplaceWebServiceProducts_Model_BuyBoxEligibleOffers buyBoxEligibleOffers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setBuyBoxEligibleOffers($value)
     {
@@ -373,7 +373,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyBoxEligibleOffers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withBuyBoxEligibleOffers($value)
     {
@@ -395,7 +395,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OffersAvailableTime property.
      *
      * @param string offersAvailableTime
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Summary instance
      */
     public function setOffersAvailableTime($value)
     {
@@ -419,7 +419,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offersAvailableTime
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Summary instance.
      */
     public function withOffersAvailableTime($value)
     {

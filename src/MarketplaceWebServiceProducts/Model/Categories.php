@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ProductCategoryId property.
      *
      * @param string productCategoryId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Categories instance
      */
     public function setProductCategoryId($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param productCategoryId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Categories instance.
      */
     public function withProductCategoryId($value)
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ProductCategoryName property.
      *
      * @param string productCategoryName
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Categories instance
      */
     public function setProductCategoryName($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param productCategoryName
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Categories instance.
      */
     public function withProductCategoryName($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Parent property.
      *
-     * @return Categories Parent.
+     * @return MarketplaceWebServiceProducts_Model_Categories Parent.
      */
     public function getParent()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Parent property.
      *
      * @param MarketplaceWebServiceProducts_Model_Categories parent
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Categories instance
      */
     public function setParent($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param parent
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Categories instance.
      */
     public function withParent($value)
     {

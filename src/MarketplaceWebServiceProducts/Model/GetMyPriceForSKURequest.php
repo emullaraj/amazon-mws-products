@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance
      */
     public function setSellerId($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance.
      */
     public function withSellerId($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance.
      */
     public function withMWSAuthToken($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance
      */
     public function setMarketplaceId($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance.
      */
     public function withMarketplaceId($value)
     {
@@ -192,7 +192,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SellerSKUList property.
      *
-     * @return SellerSKUListType SellerSKUList.
+     * @return MarketplaceWebServiceProducts_Model_SellerSKUListType SellerSKUList.
      */
     public function getSellerSKUList()
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerSKUList property.
      *
      * @param MarketplaceWebServiceProducts_Model_SellerSKUListType sellerSKUList
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance
      */
     public function setSellerSKUList($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerSKUList
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKURequest instance.
      */
     public function withSellerSKUList($value)
     {

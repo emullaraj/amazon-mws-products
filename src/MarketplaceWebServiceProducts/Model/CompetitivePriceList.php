@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the CompetitivePrice property.
      *
-     * @return List<CompetitivePriceType> CompetitivePrice.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType[] CompetitivePrice.
      */
     public function getCompetitivePrice()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CompetitivePrice property.
      *
      * @param array competitivePrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceList instance
      */
     public function setCompetitivePrice($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param competitivePrice
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceList instance.
      */
     public function withCompetitivePrice()
     {

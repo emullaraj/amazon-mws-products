@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the GetProductCategoriesForASINResult property.
      *
-     * @return GetProductCategoriesForASINResult GetProductCategoriesForASINResult.
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResult GetProductCategoriesForASINResult.
      */
     public function getGetProductCategoriesForASINResult()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the GetProductCategoriesForASINResult property.
      *
      * @param MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResult getProductCategoriesForASINResult
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance
      */
     public function setGetProductCategoriesForASINResult($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param getProductCategoriesForASINResult
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance.
      */
     public function withGetProductCategoriesForASINResult($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance
      */
     public function setResponseMetadata($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance.
      */
     public function withResponseMetadata($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse instance.
      */
     public function withResponseHeaderMetadata($value)
     {
@@ -208,7 +208,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
         }
     }
     /**
-     * XML Representation for this object
+     * XML Representation for MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResponse object
      * 
      * @return string XML for this object
      */

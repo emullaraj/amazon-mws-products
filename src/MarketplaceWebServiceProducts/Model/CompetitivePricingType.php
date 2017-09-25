@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the CompetitivePrices property.
      *
-     * @return CompetitivePriceList CompetitivePrices.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceList CompetitivePrices.
      */
     public function getCompetitivePrices()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CompetitivePrices property.
      *
      * @param MarketplaceWebServiceProducts_Model_CompetitivePriceList competitivePrices
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance
      */
     public function setCompetitivePrices($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param competitivePrices
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance.
      */
     public function withCompetitivePrices($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the NumberOfOfferListings property.
      *
-     * @return NumberOfOfferListingsList NumberOfOfferListings.
+     * @return MarketplaceWebServiceProducts_Model_NumberOfOfferListingsList NumberOfOfferListings.
      */
     public function getNumberOfOfferListings()
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the NumberOfOfferListings property.
      *
      * @param MarketplaceWebServiceProducts_Model_NumberOfOfferListingsList numberOfOfferListings
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance
      */
     public function setNumberOfOfferListings($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param numberOfOfferListings
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance.
      */
     public function withNumberOfOfferListings($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the TradeInValue property.
      *
-     * @return MoneyType TradeInValue.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType TradeInValue.
      */
     public function getTradeInValue()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TradeInValue property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType tradeInValue
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance
      */
     public function setTradeInValue($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param tradeInValue
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType instance.
      */
     public function withTradeInValue($value)
     {

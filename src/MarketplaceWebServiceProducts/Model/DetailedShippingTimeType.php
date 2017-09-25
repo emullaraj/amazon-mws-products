@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the minimumHours property.
      *
      * @param int minimumHours
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance
      */
     public function setminimumHours($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param minimumHours
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance.
      */
     public function withminimumHours($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the maximumHours property.
      *
      * @param int maximumHours
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance
      */
     public function setmaximumHours($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param maximumHours
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance.
      */
     public function withmaximumHours($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the availableDate property.
      *
      * @param string availableDate
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance
      */
     public function setavailableDate($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param availableDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance.
      */
     public function withavailableDate($value)
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the availabilityType property.
      *
      * @param string availabilityType
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance
      */
     public function setavailabilityType($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param availabilityType
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType instance.
      */
     public function withavailabilityType($value)
     {

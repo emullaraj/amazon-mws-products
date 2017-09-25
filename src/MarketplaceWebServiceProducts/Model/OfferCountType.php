@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance
      */
     public function setcondition($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param condition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance.
      */
     public function withcondition($value)
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the fulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance
      */
     public function setfulfillmentChannel($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param fulfillmentChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance.
      */
     public function withfulfillmentChannel($value)
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OfferCount property.
      *
      * @param int offerCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance
      */
     public function setOfferCount($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offerCount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType instance.
      */
     public function withOfferCount($value)
     {

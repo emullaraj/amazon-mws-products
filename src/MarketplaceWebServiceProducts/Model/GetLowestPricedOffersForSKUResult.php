@@ -71,7 +71,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceID property.
      *
      * @param string marketplaceID
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setMarketplaceID($value)
     {
@@ -95,7 +95,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceID
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withMarketplaceID($value)
     {
@@ -117,7 +117,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SKU property.
      *
      * @param string sku
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setSKU($value)
     {
@@ -141,7 +141,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sku
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withSKU($value)
     {
@@ -163,7 +163,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setItemCondition($value)
     {
@@ -187,7 +187,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withItemCondition($value)
     {
@@ -209,7 +209,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the status property.
      *
      * @param string status
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setstatus($value)
     {
@@ -233,7 +233,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param status
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withstatus($value)
     {
@@ -244,7 +244,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Identifier property.
      *
-     * @return GetLowestPricedOffersSkuIdentifier Identifier.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier Identifier.
      */
     public function getIdentifier()
     {
@@ -255,7 +255,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Identifier property.
      *
      * @param MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier identifier
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setIdentifier($value)
     {
@@ -279,7 +279,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param identifier
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withIdentifier($value)
     {
@@ -290,7 +290,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Summary property.
      *
-     * @return Summary Summary.
+     * @return MarketplaceWebServiceProducts_Model_Summary Summary.
      */
     public function getSummary()
     {
@@ -301,7 +301,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Summary property.
      *
      * @param MarketplaceWebServiceProducts_Model_Summary summary
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setSummary($value)
     {
@@ -325,7 +325,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param summary
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withSummary($value)
     {
@@ -336,7 +336,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Offers property.
      *
-     * @return SKUOfferDetailList Offers.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetailList Offers.
      */
     public function getOffers()
     {
@@ -347,7 +347,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Offers property.
      *
      * @param MarketplaceWebServiceProducts_Model_SKUOfferDetailList offers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance
      */
     public function setOffers($value)
     {
@@ -371,7 +371,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKUResult instance.
      */
     public function withOffers($value)
     {

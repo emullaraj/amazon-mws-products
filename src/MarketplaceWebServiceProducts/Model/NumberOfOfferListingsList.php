@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the OfferListingCount property.
      *
-     * @return List<OfferListingCountType> OfferListingCount.
+     * @return MarketplaceWebServiceProducts_Model_OfferListingCountType[] OfferListingCount.
      */
     public function getOfferListingCount()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OfferListingCount property.
      *
      * @param array offerListingCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_NumberOfOfferListingsList instance
      */
     public function setOfferListingCount($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offerListingCount
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_NumberOfOfferListingsList instance.
      */
     public function withOfferListingCount()
     {

@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SalesRank property.
      *
-     * @return List<SalesRankType> SalesRank.
+     * @return MarketplaceWebServiceProducts_Model_SalesRankType[] SalesRank.
      */
     public function getSalesRank()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SalesRank property.
      *
      * @param array salesRank
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SalesRankList instance
      */
     public function setSalesRank($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param salesRank
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SalesRankList instance.
      */
     public function withSalesRank()
     {

@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the GetCompetitivePricingForSKUResult property.
      *
-     * @return List<GetCompetitivePricingForSKUResult> GetCompetitivePricingForSKUResult.
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResult[] GetCompetitivePricingForSKUResult.
      */
     public function getGetCompetitivePricingForSKUResult()
     {
@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the GetCompetitivePricingForSKUResult property.
      *
      * @param array getCompetitivePricingForSKUResult
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance
      */
     public function setGetCompetitivePricingForSKUResult($value)
     {
@@ -102,7 +102,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param getCompetitivePricingForSKUResult
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance.
      */
     public function withGetCompetitivePricingForSKUResult()
     {
@@ -116,7 +116,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -127,7 +127,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance
      */
     public function setResponseMetadata($value)
     {
@@ -151,7 +151,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance.
      */
     public function withResponseMetadata($value)
     {
@@ -162,7 +162,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -173,7 +173,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -197,7 +197,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetCompetitivePricingForSKUResponse    instance.
      */
     public function withResponseHeaderMetadata($value)
     {

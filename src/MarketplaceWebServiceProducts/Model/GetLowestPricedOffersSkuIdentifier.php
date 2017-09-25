@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance
      */
     public function setMarketplaceId($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance.
      */
     public function withMarketplaceId($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance
      */
     public function setSellerSKU($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerSKU
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance.
      */
     public function withSellerSKU($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance
      */
     public function setItemCondition($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance.
      */
     public function withItemCondition($value)
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TimeOfOfferChange property.
      *
      * @param string timeOfOfferChange
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance
      */
     public function setTimeOfOfferChange($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param timeOfOfferChange
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersSkuIdentifier instance.
      */
     public function withTimeOfOfferChange($value)
     {

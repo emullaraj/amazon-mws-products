@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Id property.
      *
-     * @return List<String> Id.
+     * @return array Id.
      */
     public function getId()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Id property.
      *
      * @param array id
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_IdListType instance
      */
     public function setId($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param id
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_IdListType instance.
      */
     public function withId()
     {

@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance
      */
     public function setSellerId($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance.
      */
     public function withSellerId($value)
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance.
      */
     public function withMWSAuthToken($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance
      */
     public function setMarketplaceId($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance.
      */
     public function withMarketplaceId($value)
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance
      */
     public function setSellerSKU($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerSKU
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance.
      */
     public function withSellerSKU($value)
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance
      */
     public function setItemCondition($value)
     {
@@ -275,7 +275,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetLowestPricedOffersForSKURequest instance.
      */
     public function withItemCondition($value)
     {

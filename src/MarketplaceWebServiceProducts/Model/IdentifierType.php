@@ -50,7 +50,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the MarketplaceASIN property.
      *
-     * @return ASINIdentifier MarketplaceASIN.
+     * @return MarketplaceWebServiceProducts_Model_ASINIdentifier MarketplaceASIN.
      */
     public function getMarketplaceASIN()
     {
@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceASIN property.
      *
      * @param MarketplaceWebServiceProducts_Model_ASINIdentifier marketplaceASIN
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_IdentifierType instance
      */
     public function setMarketplaceASIN($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceASIN
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_IdentifierType instance.
      */
     public function withMarketplaceASIN($value)
     {
@@ -96,7 +96,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SKUIdentifier property.
      *
-     * @return SellerSKUIdentifier SKUIdentifier.
+     * @return MarketplaceWebServiceProducts_Model_SellerSKUIdentifier SKUIdentifier.
      */
     public function getSKUIdentifier()
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SKUIdentifier property.
      *
      * @param MarketplaceWebServiceProducts_Model_SellerSKUIdentifier skuIdentifier
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_IdentifierType instance
      */
     public function setSKUIdentifier($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param skuIdentifier
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_IdentifierType instance.
      */
     public function withSKUIdentifier($value)
     {

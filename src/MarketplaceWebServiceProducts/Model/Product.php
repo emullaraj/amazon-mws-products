@@ -60,7 +60,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Identifiers property.
      *
-     * @return IdentifierType Identifiers.
+     * @return MarketplaceWebServiceProducts_Model_IdentifierType Identifiers.
      */
     public function getIdentifiers()
     {
@@ -71,7 +71,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Identifiers property.
      *
      * @param MarketplaceWebServiceProducts_Model_IdentifierType identifiers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setIdentifiers($value)
     {
@@ -95,7 +95,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param identifiers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withIdentifiers($value)
     {
@@ -106,7 +106,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the AttributeSets property.
      *
-     * @return AttributeSetList AttributeSets.
+     * @return MarketplaceWebServiceProducts_Model_AttributeSetList AttributeSets.
      */
     public function getAttributeSets()
     {
@@ -117,7 +117,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AttributeSets property.
      *
      * @param MarketplaceWebServiceProducts_Model_AttributeSetList attributeSets
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setAttributeSets($value)
     {
@@ -141,7 +141,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param attributeSets
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withAttributeSets($value)
     {
@@ -152,7 +152,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Relationships property.
      *
-     * @return RelationshipList Relationships.
+     * @return MarketplaceWebServiceProducts_Model_RelationshipList Relationships.
      */
     public function getRelationships()
     {
@@ -163,7 +163,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Relationships property.
      *
      * @param MarketplaceWebServiceProducts_Model_RelationshipList relationships
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setRelationships($value)
     {
@@ -187,7 +187,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param relationships
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withRelationships($value)
     {
@@ -198,7 +198,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the CompetitivePricing property.
      *
-     * @return CompetitivePricingType CompetitivePricing.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePricingType CompetitivePricing.
      */
     public function getCompetitivePricing()
     {
@@ -209,7 +209,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CompetitivePricing property.
      *
      * @param MarketplaceWebServiceProducts_Model_CompetitivePricingType competitivePricing
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setCompetitivePricing($value)
     {
@@ -233,7 +233,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param competitivePricing
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withCompetitivePricing($value)
     {
@@ -244,7 +244,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SalesRankings property.
      *
-     * @return SalesRankList SalesRankings.
+     * @return MarketplaceWebServiceProducts_Model_SalesRankList SalesRankings.
      */
     public function getSalesRankings()
     {
@@ -255,7 +255,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SalesRankings property.
      *
      * @param MarketplaceWebServiceProducts_Model_SalesRankList salesRankings
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setSalesRankings($value)
     {
@@ -279,7 +279,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param salesRankings
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withSalesRankings($value)
     {
@@ -290,7 +290,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the LowestOfferListings property.
      *
-     * @return LowestOfferListingList LowestOfferListings.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingList LowestOfferListings.
      */
     public function getLowestOfferListings()
     {
@@ -301,7 +301,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LowestOfferListings property.
      *
      * @param MarketplaceWebServiceProducts_Model_LowestOfferListingList lowestOfferListings
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setLowestOfferListings($value)
     {
@@ -325,7 +325,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lowestOfferListings
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withLowestOfferListings($value)
     {
@@ -336,7 +336,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Offers property.
      *
-     * @return OffersList Offers.
+     * @return MarketplaceWebServiceProducts_Model_OffersList Offers.
      */
     public function getOffers()
     {
@@ -347,7 +347,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Offers property.
      *
      * @param MarketplaceWebServiceProducts_Model_OffersList offers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Product instance
      */
     public function setOffers($value)
     {
@@ -371,7 +371,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Product instance.
      */
     public function withOffers($value)
     {

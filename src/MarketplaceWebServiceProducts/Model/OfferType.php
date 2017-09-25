@@ -60,7 +60,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the BuyingPrice property.
      *
-     * @return PriceType BuyingPrice.
+     * @return MarketplaceWebServiceProducts_Model_PriceType BuyingPrice.
      */
     public function getBuyingPrice()
     {
@@ -71,7 +71,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyingPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_PriceType buyingPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setBuyingPrice($value)
     {
@@ -95,7 +95,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyingPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withBuyingPrice($value)
     {
@@ -106,7 +106,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the RegularPrice property.
      *
-     * @return MoneyType RegularPrice.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType RegularPrice.
      */
     public function getRegularPrice()
     {
@@ -117,7 +117,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the RegularPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType regularPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setRegularPrice($value)
     {
@@ -141,7 +141,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param regularPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withRegularPrice($value)
     {
@@ -163,7 +163,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -187,7 +187,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param fulfillmentChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withFulfillmentChannel($value)
     {
@@ -209,7 +209,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setItemCondition($value)
     {
@@ -233,7 +233,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withItemCondition($value)
     {
@@ -255,7 +255,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ItemSubCondition property.
      *
      * @param string itemSubCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setItemSubCondition($value)
     {
@@ -279,7 +279,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param itemSubCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withItemSubCondition($value)
     {
@@ -301,7 +301,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setSellerId($value)
     {
@@ -325,7 +325,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withSellerId($value)
     {
@@ -347,7 +347,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance
      */
     public function setSellerSKU($value)
     {
@@ -371,7 +371,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerSKU
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OfferType instance.
      */
     public function withSellerSKU($value)
     {

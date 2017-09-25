@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the LowestPrice property.
      *
-     * @return List<LowestPriceType> LowestPrice.
+     * @return MarketplaceWebServiceProducts_Model_LowestPriceType[] LowestPrice.
      */
     public function getLowestPrice()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LowestPrice property.
      *
      * @param array lowestPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestPrices instance
      */
     public function setLowestPrice($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lowestPrice
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestPrices instance.
      */
     public function withLowestPrice()
     {

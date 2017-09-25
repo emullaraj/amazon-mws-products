@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListMatchingProductsResult property.
      *
-     * @return ListMatchingProductsResult ListMatchingProductsResult.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResult ListMatchingProductsResult.
      */
     public function getListMatchingProductsResult()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ListMatchingProductsResult property.
      *
      * @param MarketplaceWebServiceProducts_Model_ListMatchingProductsResult listMatchingProductsResult
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance
      */
     public function setListMatchingProductsResult($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param listMatchingProductsResult
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance.
      */
     public function withListMatchingProductsResult($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance
      */
     public function setResponseMetadata($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance.
      */
     public function withResponseMetadata($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsResponse instance.
      */
     public function withResponseHeaderMetadata($value)
     {

@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the BuyBoxPrice property.
      *
-     * @return List<BuyBoxPriceType> BuyBoxPrice.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType[] BuyBoxPrice.
      */
     public function getBuyBoxPrice()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyBoxPrice property.
      *
      * @param array buyBoxPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPrices instance
      */
     public function setBuyBoxPrice($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyBoxPrice
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPrices instance.
      */
     public function withBuyBoxPrice()
     {

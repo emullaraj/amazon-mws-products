@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the LowestOfferListing property.
      *
-     * @return List<LowestOfferListingType> LowestOfferListing.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType[] LowestOfferListing.
      */
     public function getLowestOfferListing()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LowestOfferListing property.
      *
      * @param array lowestOfferListing
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingList instance
      */
     public function setLowestOfferListing($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lowestOfferListing
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingList instance.
      */
     public function withLowestOfferListing()
     {

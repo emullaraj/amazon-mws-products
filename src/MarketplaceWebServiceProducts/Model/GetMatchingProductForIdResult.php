@@ -56,7 +56,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Products property.
      *
-     * @return ProductList Products.
+     * @return MarketplaceWebServiceProducts_Model_ProductList Products.
      */
     public function getProducts()
     {
@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Products property.
      *
      * @param MarketplaceWebServiceProducts_Model_ProductList products
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance
      */
     public function setProducts($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param products
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance.
      */
     public function withProducts($value)
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Error property.
      *
      * @param MarketplaceWebServiceProducts_Model_Error error
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance
      */
     public function setError($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param error
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance.
      */
     public function withError($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Id property.
      *
      * @param string id
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance
      */
     public function setId($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param id
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance.
      */
     public function withId($value)
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance
      */
     public function setIdType($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param idType
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance.
      */
     public function withIdType($value)
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the status property.
      *
      * @param string status
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance
      */
     public function setstatus($value)
     {
@@ -275,7 +275,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param status
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMatchingProductForIdResult instance.
      */
     public function withstatus($value)
     {

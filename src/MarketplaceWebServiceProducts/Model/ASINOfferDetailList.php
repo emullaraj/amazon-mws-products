@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Offer property.
      *
-     * @return List<ASINOfferDetail> Offer.
+     * @return MarketplaceWebServiceProducts_Model_ASINOfferDetail[] Offer.
      */
     public function getOffer()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Offer property.
      *
      * @param array offer
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ASINOfferDetailList instance
      */
     public function setOffer($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offer
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ASINOfferDetailList instance.
      */
     public function withOffer()
     {

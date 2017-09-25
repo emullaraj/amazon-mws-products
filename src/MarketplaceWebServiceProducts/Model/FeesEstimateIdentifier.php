@@ -71,7 +71,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setMarketplaceId($value)
     {
@@ -95,7 +95,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withMarketplaceId($value)
     {
@@ -117,7 +117,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setSellerId($value)
     {
@@ -141,7 +141,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withSellerId($value)
     {
@@ -163,7 +163,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setIdType($value)
     {
@@ -187,7 +187,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param idType
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withIdType($value)
     {
@@ -209,7 +209,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IdValue property.
      *
      * @param string idValue
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setIdValue($value)
     {
@@ -233,7 +233,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param idValue
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withIdValue($value)
     {
@@ -265,7 +265,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsAmazonFulfilled property.
      *
      * @param bool isAmazonFulfilled
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setIsAmazonFulfilled($value)
     {
@@ -289,7 +289,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isAmazonFulfilled
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withIsAmazonFulfilled($value)
     {
@@ -300,7 +300,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the PriceToEstimateFees property.
      *
-     * @return PriceToEstimateFees PriceToEstimateFees.
+     * @return MarketplaceWebServiceProducts_Model_PriceToEstimateFees PriceToEstimateFees.
      */
     public function getPriceToEstimateFees()
     {
@@ -311,7 +311,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PriceToEstimateFees property.
      *
      * @param MarketplaceWebServiceProducts_Model_PriceToEstimateFees priceToEstimateFees
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setPriceToEstimateFees($value)
     {
@@ -335,7 +335,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param priceToEstimateFees
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withPriceToEstimateFees($value)
     {
@@ -357,7 +357,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerInputIdentifier property.
      *
      * @param string sellerInputIdentifier
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance
      */
     public function setSellerInputIdentifier($value)
     {
@@ -381,7 +381,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerInputIdentifier
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_FeesEstimateIdentifier instance.
      */
     public function withSellerInputIdentifier($value)
     {

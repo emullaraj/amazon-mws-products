@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PointsNumber property.
      *
      * @param int pointsNumber
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Points instance
      */
     public function setPointsNumber($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param pointsNumber
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Points instance.
      */
     public function withPointsNumber($value)
     {
@@ -96,7 +96,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the PointsMonetaryValue property.
      *
-     * @return MoneyType PointsMonetaryValue.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType PointsMonetaryValue.
      */
     public function getPointsMonetaryValue()
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PointsMonetaryValue property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType pointsMonetaryValue
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Points instance
      */
     public function setPointsMonetaryValue($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param pointsMonetaryValue
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Points instance.
      */
     public function withPointsMonetaryValue($value)
     {

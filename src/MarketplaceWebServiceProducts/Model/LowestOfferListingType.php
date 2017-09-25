@@ -56,7 +56,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Qualifiers property.
      *
-     * @return QualifiersType Qualifiers.
+     * @return MarketplaceWebServiceProducts_Model_QualifiersType Qualifiers.
      */
     public function getQualifiers()
     {
@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Qualifiers property.
      *
      * @param MarketplaceWebServiceProducts_Model_QualifiersType qualifiers
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance
      */
     public function setQualifiers($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param qualifiers
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance.
      */
     public function withQualifiers($value)
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the NumberOfOfferListingsConsidered property.
      *
      * @param int numberOfOfferListingsConsidered
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance
      */
     public function setNumberOfOfferListingsConsidered($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param numberOfOfferListingsConsidered
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance.
      */
     public function withNumberOfOfferListingsConsidered($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerFeedbackCount property.
      *
      * @param int sellerFeedbackCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance
      */
     public function setSellerFeedbackCount($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerFeedbackCount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance.
      */
     public function withSellerFeedbackCount($value)
     {
@@ -194,7 +194,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Price property.
      *
-     * @return PriceType Price.
+     * @return MarketplaceWebServiceProducts_Model_PriceType Price.
      */
     public function getPrice()
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Price property.
      *
      * @param MarketplaceWebServiceProducts_Model_PriceType price
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance
      */
     public function setPrice($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param price
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance.
      */
     public function withPrice($value)
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MultipleOffersAtLowestPrice property.
      *
      * @param string multipleOffersAtLowestPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance
      */
     public function setMultipleOffersAtLowestPrice($value)
     {
@@ -275,7 +275,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param multipleOffersAtLowestPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_LowestOfferListingType instance.
      */
     public function withMultipleOffersAtLowestPrice($value)
     {

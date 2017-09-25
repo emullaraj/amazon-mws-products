@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance
      */
     public function setSellerId($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance.
      */
     public function withSellerId($value)
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance.
      */
     public function withMWSAuthToken($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance
      */
     public function setMarketplaceId($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance.
      */
     public function withMarketplaceId($value)
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Query property.
      *
      * @param string query
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance
      */
     public function setQuery($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param query
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance.
      */
     public function withQuery($value)
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the QueryContextId property.
      *
      * @param string queryContextId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance
      */
     public function setQueryContextId($value)
     {
@@ -275,7 +275,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param queryContextId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ListMatchingProductsRequest instance.
      */
     public function withQueryContextId($value)
     {

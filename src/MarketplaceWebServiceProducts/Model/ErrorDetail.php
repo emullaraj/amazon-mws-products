@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Any property.
      *
      * @param array any
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ErrorDetail instance
      */
     public function setAny($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param any
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ErrorDetail instance.
      */
     public function withAny()
     {

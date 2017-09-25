@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Type property.
      *
      * @param string type
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Error instance
      */
     public function setType($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param type
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Error instance.
      */
     public function withType($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Code property.
      *
      * @param string code
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Error instance
      */
     public function setCode($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param code
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Error instance.
      */
     public function withCode($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Message property.
      *
      * @param string message
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Error instance
      */
     public function setMessage($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param message
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Error instance.
      */
     public function withMessage($value)
     {
@@ -192,7 +192,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Detail property.
      *
-     * @return ErrorDetail Detail.
+     * @return MarketplaceWebServiceProducts_Model_ErrorDetail Detail.
      */
     public function getDetail()
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Detail property.
      *
      * @param MarketplaceWebServiceProducts_Model_ErrorDetail detail
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_Error instance
      */
     public function setDetail($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param detail
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_Error instance.
      */
     public function withDetail($value)
     {

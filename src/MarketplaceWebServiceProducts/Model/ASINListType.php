@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ASIN property.
      *
-     * @return List<String> ASIN.
+     * @return array ASIN.
      */
     public function getASIN()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ASIN property.
      *
      * @param array asin
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ASINListType instance
      */
     public function setASIN($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param asin
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ASINListType instance.
      */
     public function withASIN()
     {

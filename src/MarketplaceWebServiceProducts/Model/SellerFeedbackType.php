@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerPositiveFeedbackRating property.
      *
      * @param float sellerPositiveFeedbackRating
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SellerFeedbackType instance
      */
     public function setSellerPositiveFeedbackRating($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerPositiveFeedbackRating
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SellerFeedbackType instance.
      */
     public function withSellerPositiveFeedbackRating($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FeedbackCount property.
      *
      * @param int feedbackCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SellerFeedbackType instance
      */
     public function setFeedbackCount($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param feedbackCount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SellerFeedbackType instance.
      */
     public function withFeedbackCount($value)
     {

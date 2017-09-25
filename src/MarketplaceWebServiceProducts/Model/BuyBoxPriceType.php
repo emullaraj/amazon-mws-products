@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance
      */
     public function setcondition($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param condition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance.
      */
     public function withcondition($value)
     {
@@ -102,7 +102,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the LandedPrice property.
      *
-     * @return MoneyType LandedPrice.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType LandedPrice.
      */
     public function getLandedPrice()
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LandedPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType landedPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance
      */
     public function setLandedPrice($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param landedPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance.
      */
     public function withLandedPrice($value)
     {
@@ -148,7 +148,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListingPrice property.
      *
-     * @return MoneyType ListingPrice.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType ListingPrice.
      */
     public function getListingPrice()
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ListingPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType listingPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance
      */
     public function setListingPrice($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param listingPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance.
      */
     public function withListingPrice($value)
     {
@@ -194,7 +194,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Shipping property.
      *
-     * @return MoneyType Shipping.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType Shipping.
      */
     public function getShipping()
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Shipping property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType shipping
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance
      */
     public function setShipping($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipping
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance.
      */
     public function withShipping($value)
     {
@@ -240,7 +240,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Points property.
      *
-     * @return Points Points.
+     * @return MarketplaceWebServiceProducts_Model_Points Points.
      */
     public function getPoints()
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Points property.
      *
      * @param MarketplaceWebServiceProducts_Model_Points points
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance
      */
     public function setPoints($value)
     {
@@ -275,7 +275,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param points
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxPriceType instance.
      */
     public function withPoints($value)
     {

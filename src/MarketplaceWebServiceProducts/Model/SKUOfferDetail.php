@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MyOffer property.
      *
      * @param bool myOffer
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setMyOffer($value)
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param myOffer
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withMyOffer($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SubCondition property.
      *
      * @param string subCondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setSubCondition($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param subCondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withSubCondition($value)
     {
@@ -170,7 +170,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SellerFeedbackRating property.
      *
-     * @return SellerFeedbackType SellerFeedbackRating.
+     * @return MarketplaceWebServiceProducts_Model_SellerFeedbackType SellerFeedbackRating.
      */
     public function getSellerFeedbackRating()
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerFeedbackRating property.
      *
      * @param MarketplaceWebServiceProducts_Model_SellerFeedbackType sellerFeedbackRating
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setSellerFeedbackRating($value)
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerFeedbackRating
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withSellerFeedbackRating($value)
     {
@@ -216,7 +216,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ShippingTime property.
      *
-     * @return DetailedShippingTimeType ShippingTime.
+     * @return MarketplaceWebServiceProducts_Model_DetailedShippingTimeType ShippingTime.
      */
     public function getShippingTime()
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShippingTime property.
      *
      * @param MarketplaceWebServiceProducts_Model_DetailedShippingTimeType shippingTime
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setShippingTime($value)
     {
@@ -251,7 +251,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shippingTime
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withShippingTime($value)
     {
@@ -262,7 +262,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListingPrice property.
      *
-     * @return MoneyType ListingPrice.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType ListingPrice.
      */
     public function getListingPrice()
     {
@@ -273,7 +273,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ListingPrice property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType listingPrice
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setListingPrice($value)
     {
@@ -297,7 +297,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param listingPrice
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withListingPrice($value)
     {
@@ -308,7 +308,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Points property.
      *
-     * @return Points Points.
+     * @return MarketplaceWebServiceProducts_Model_Points Points.
      */
     public function getPoints()
     {
@@ -319,7 +319,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Points property.
      *
      * @param MarketplaceWebServiceProducts_Model_Points points
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setPoints($value)
     {
@@ -343,7 +343,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param points
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withPoints($value)
     {
@@ -354,7 +354,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Shipping property.
      *
-     * @return MoneyType Shipping.
+     * @return MarketplaceWebServiceProducts_Model_MoneyType Shipping.
      */
     public function getShipping()
     {
@@ -365,7 +365,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Shipping property.
      *
      * @param MarketplaceWebServiceProducts_Model_MoneyType shipping
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setShipping($value)
     {
@@ -389,7 +389,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipping
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withShipping($value)
     {
@@ -400,7 +400,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ShipsFrom property.
      *
-     * @return ShipsFromType ShipsFrom.
+     * @return MarketplaceWebServiceProducts_Model_ShipsFromType ShipsFrom.
      */
     public function getShipsFrom()
     {
@@ -411,7 +411,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShipsFrom property.
      *
      * @param MarketplaceWebServiceProducts_Model_ShipsFromType shipsFrom
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setShipsFrom($value)
     {
@@ -435,7 +435,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipsFrom
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withShipsFrom($value)
     {
@@ -467,7 +467,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsFulfilledByAmazon property.
      *
      * @param bool isFulfilledByAmazon
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setIsFulfilledByAmazon($value)
     {
@@ -491,7 +491,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isFulfilledByAmazon
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withIsFulfilledByAmazon($value)
     {
@@ -523,7 +523,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsBuyBoxWinner property.
      *
      * @param bool isBuyBoxWinner
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setIsBuyBoxWinner($value)
     {
@@ -547,7 +547,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isBuyBoxWinner
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withIsBuyBoxWinner($value)
     {
@@ -579,7 +579,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsFeaturedMerchant property.
      *
      * @param bool isFeaturedMerchant
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance
      */
     public function setIsFeaturedMerchant($value)
     {
@@ -603,7 +603,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isFeaturedMerchant
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SKUOfferDetail instance.
      */
     public function withIsFeaturedMerchant($value)
     {

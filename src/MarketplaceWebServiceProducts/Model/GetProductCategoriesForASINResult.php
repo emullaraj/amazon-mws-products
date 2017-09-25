@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Self property.
      *
-     * @return List<Categories> Self.
+     * @return MarketplaceWebServiceProducts_Model_Categories[] Self.
      */
     public function getSelf()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Self property.
      *
      * @param array self
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResult instance
      */
     public function setSelf($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param self
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetProductCategoriesForASINResult instance.
      */
     public function withSelf()
     {

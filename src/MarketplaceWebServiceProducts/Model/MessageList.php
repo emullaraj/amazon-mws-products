@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Message property.
      *
-     * @return List<Message> Message.
+     * @return MarketplaceWebServiceProducts_Model_Message[] Message.
      */
     public function getMessage()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Message property.
      *
      * @param array message
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_MessageList instance
      */
     public function setMessage($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param message
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_MessageList instance.
      */
     public function withMessage()
     {

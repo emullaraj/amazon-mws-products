@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Offer property.
      *
-     * @return List<OfferType> Offer.
+     * @return MarketplaceWebServiceProducts_Model_OfferType[] Offer.
      */
     public function getOffer()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Offer property.
      *
      * @param array offer
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_OffersList instance
      */
     public function setOffer($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offer
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_OffersList instance.
      */
     public function withOffer()
     {

@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CompetitivePriceId property.
      *
      * @param string competitivePriceId
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance
      */
     public function setCompetitivePriceId($value)
     {
@@ -91,7 +91,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param competitivePriceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance.
      */
     public function withCompetitivePriceId($value)
     {
@@ -102,7 +102,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Price property.
      *
-     * @return PriceType Price.
+     * @return MarketplaceWebServiceProducts_Model_PriceType Price.
      */
     public function getPrice()
     {
@@ -113,7 +113,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Price property.
      *
      * @param MarketplaceWebServiceProducts_Model_PriceType price
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance
      */
     public function setPrice($value)
     {
@@ -137,7 +137,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param price
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance.
      */
     public function withPrice($value)
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance
      */
     public function setcondition($value)
     {
@@ -183,7 +183,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param condition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance.
      */
     public function withcondition($value)
     {
@@ -205,7 +205,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the subcondition property.
      *
      * @param string subcondition
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance
      */
     public function setsubcondition($value)
     {
@@ -229,7 +229,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param subcondition
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance.
      */
     public function withsubcondition($value)
     {
@@ -261,7 +261,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the belongsToRequester property.
      *
      * @param bool belongsToRequester
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance
      */
     public function setbelongsToRequester($value)
     {
@@ -285,7 +285,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param belongsToRequester
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_CompetitivePriceType instance.
      */
     public function withbelongsToRequester($value)
     {

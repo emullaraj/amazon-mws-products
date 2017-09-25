@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the GetMyPriceForSKUResult property.
      *
-     * @return List<GetMyPriceForSKUResult> GetMyPriceForSKUResult.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResult[] GetMyPriceForSKUResult.
      */
     public function getGetMyPriceForSKUResult()
     {
@@ -67,7 +67,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the GetMyPriceForSKUResult property.
      *
      * @param array getMyPriceForSKUResult
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance
      */
     public function setGetMyPriceForSKUResult($value)
     {
@@ -102,7 +102,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param getMyPriceForSKUResult
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance.
      */
     public function withGetMyPriceForSKUResult()
     {
@@ -116,7 +116,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -127,7 +127,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance
      */
     public function setResponseMetadata($value)
     {
@@ -151,7 +151,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance.
      */
     public function withResponseMetadata($value)
     {
@@ -162,7 +162,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -173,7 +173,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MarketplaceWebServiceProducts_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -197,7 +197,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_GetMyPriceForSKUResponse instance.
      */
     public function withResponseHeaderMetadata($value)
     {

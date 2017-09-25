@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Product property.
      *
-     * @return List<Product> Product.
+     * @return MarketplaceWebServiceProducts_Model_Product[] Product.
      */
     public function getProduct()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Product property.
      *
      * @param array product
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ProductList instance
      */
     public function setProduct($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param product
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ProductList instance.
      */
     public function withProduct()
     {

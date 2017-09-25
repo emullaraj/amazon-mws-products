@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return List<String> SellerSKU.
+     * @return array SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerSKU property.
      *
      * @param array sellerSKU
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_SellerSKUListType instance
      */
     public function setSellerSKU($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerSKU
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_SellerSKUListType instance.
      */
     public function withSellerSKU()
     {

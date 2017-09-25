@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the State property.
      *
      * @param string state
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ShipsFromType instance
      */
     public function setState($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param state
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ShipsFromType instance.
      */
     public function withState($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Country property.
      *
      * @param string country
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_ShipsFromType instance
      */
     public function setCountry($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param country
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_ShipsFromType instance.
      */
     public function withCountry($value)
     {

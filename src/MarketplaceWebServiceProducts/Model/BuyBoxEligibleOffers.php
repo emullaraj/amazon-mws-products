@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the OfferCount property.
      *
-     * @return List<OfferCountType> OfferCount.
+     * @return MarketplaceWebServiceProducts_Model_OfferCountType[] OfferCount.
      */
     public function getOfferCount()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OfferCount property.
      *
      * @param array offerCount
-     * @return this instance
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxEligibleOffers instance
      */
     public function setOfferCount($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param offerCount
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceProducts_Model_BuyBoxEligibleOffers instance.
      */
     public function withOfferCount()
     {
