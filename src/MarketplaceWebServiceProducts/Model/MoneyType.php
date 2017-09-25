@@ -96,7 +96,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Amount property.
      *
-     * @return BigDecimal Amount.
+     * @return integer Amount.
      */
     public function getAmount()
     {
